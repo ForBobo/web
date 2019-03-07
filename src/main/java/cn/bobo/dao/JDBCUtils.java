@@ -1,6 +1,9 @@
 package cn.bobo.dao;
 
+import com.alibaba.druid.sql.visitor.functions.Char;
+
 import java.io.*;
+import java.nio.charset.Charset;
 import java.util.*;
 
 public class JDBCUtils {
